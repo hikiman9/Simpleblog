@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h5>{{ contents[0].title }}</h5>
-        <h6>{{ contents[0].date }}</h6>
-        <p>{{ contents[0].content }}</p>
+        <h5>{{ contents[$route.params.id].title }}</h5>
+        <h6>{{ contents[$route.params.id].date }}</h6>
+        <p>{{ contents[$route.params.id].content }}</p>
     </div>
 </template>
 <script>
